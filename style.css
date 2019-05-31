@@ -1,32 +1,45 @@
-sdf* {
+/* * {
     text-align: center;
     border: 1px solid blue;
-}
+} */
 
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #777;
     background-color: #777;
     width: 960px;
+    height: 100vh;
     font-size: 18px;
-    margin: 0 auto
+    margin: auto;
      
 }
-.box2 {
-    padding: 25px 0;
-    background: #ebebeb;
-    text-align: center;
-    margin: 8px 0;
-    height: 200px;
-    width: 470px;
 
-}
-.box {
-    padding: 30px 0;
+.box2 {
+    padding: 50px 0 10px 0;
     background: #ebebeb;
     text-align: center;
     margin: 8px 0;
-    height: 40px;
+    height: 280px;
+    width: 470px;
+}
+
+
+.box {
+    background: #ebebeb;
+    text-align: center;
+    margin: 8px 0;
+    padding: 50px;
+    height: 150px;
+    vertical-align: middle;
+    vertical-align: -webkit-baseline-middle;
 
 }
 
@@ -34,12 +47,11 @@ article {
     color: #ebebeb;
     background: #777;
     width: 400px;
-    height: 150px;
+    height: 175px;
     padding: 10px;
-    margin-left: 20px;
-    margin-top: 15px;
-
-
+    margin: 25px auto;
+    /* margin-left: 20px;
+    margin-top: 15px; */
 }
 
 .smbox {
@@ -57,11 +69,9 @@ section {
     
 aside {
     float: right;
-    padding: 5px;
 }
 
 footer {
-    padding: 25px;
     clear: both;
-    overflow: auto
+    /* overflow: auto */
 }
